@@ -7,11 +7,11 @@ const emails=[];
 
 
 for(let i = 0 ; i < 8; i++ ){
-    /* genero delle posizioni random per pescare dai miei vettori */
+    /* genero delle posizioni random per pescare dai miei array */
     let x=nameRandom[Math.round(Math.random()*5)]
     let y=surnameRandom[Math.round(Math.random()*5)]
     let z=numberEta[Math.round(Math.random()*5)]
-    /* inserisco la stringa email nel vettore emails */
+    /* inserisco la stringa email nel array emails */
     emails[i]= x+"."+y+"_"+z+"@gmail.com"
     /* rendo ogni email diversa  */
     for(let k=0 ; k < emails.length ; k++){

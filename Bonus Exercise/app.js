@@ -4,6 +4,10 @@ if(isNaN(parseInt(arrayElements)))[
     alert("inserire dei valori validi es(2,5,8)")
     
 ]
+if(parseInt(arrayElements) <= 0){
+    alert("L'array non può avere 0 elementi")
+}
+
 
 let arrayExtractor=prompt("Quanti elementi devo estrarre dal fondo del tuo array?")
 
@@ -14,6 +18,7 @@ if(isNaN(parseInt(arrayExtractor)))[
 if(parseInt(arrayExtractor) >= parseInt(arrayElements)){
     alert("Non puoi estrarre più eleenti di quelli presenti ell'array stesso")
 }
+else{
 const myArray=[];
 let stringArray="";
 
@@ -38,3 +43,4 @@ console.log(newArray);
 
 
 printHtml.innerHTML += "<h1>L'array estratto è: [ "+newStringArray+" ]"+"</h1>"
+}

@@ -34,7 +34,7 @@ if(control !==1){
  alert("Email non presente nel nostro database")
 }
 else{
-    console.log("ciao");
+    console.log("Benvenuto");
     let printHtml=document.getElementById("stampa")
     printHtml.innerHTML="<h1>Benvenuto</h1>"
 }

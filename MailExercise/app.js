@@ -36,5 +36,5 @@ if(control !==1){
 else{
     console.log("Benvenuto");
     let printHtml=document.getElementById("stampa")
-    printHtml.innerHTML="<h1>Benvenuto</h1>"
+    printHtml.innerHTML="<h1>Sei nella lista delle emails valide: ACCESSO CONSENTITO!</h1>"
 }
